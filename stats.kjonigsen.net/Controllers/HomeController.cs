@@ -12,8 +12,9 @@ namespace stats.kjonigsen.net.Controllers
         public ActionResult Index()
         {
             ViewData["Message"] = "Welcome to ASP.NET MVC!";
+            // comment
 
-            return View();
+            return View();    
         }
 
     }
