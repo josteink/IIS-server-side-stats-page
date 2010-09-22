@@ -1,0 +1,8 @@
+c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\obj\Debug\ResolveAssemblyReference.cache
+c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Debug\stats.kjonigsen.net.Tests.dll.config
+c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Debug\stats.kjonigsen.net.Tests.dll
+c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Debug\stats.kjonigsen.net.Tests.pdb
+c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Debug\stats.kjonigsen.net.dll
+c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Debug\stats.kjonigsen.net.pdb
+c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\obj\Debug\stats.kjonigsen.net.Tests.dll
+c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\obj\Debug\stats.kjonigsen.net.Tests.pdb
