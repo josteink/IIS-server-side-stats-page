@@ -8,30 +8,31 @@ namespace stats.kjonigsen.net.Models
 {
     public class MachineStats
     {
-        private PerformanceCounter _cpuStats;
-        private PerformanceCounter _ramStats;
-        private PerformanceCounter _iisStats;
-
         public string CPU
         {
-            get { return GetValue(_cpuStats, "{0:N1}%"); }
+            get
+            {
+                var counter = GetCounter("Processor", "% Processor Time", "_Total");
+                return GetValue(counter, "{0:N1}%");
+            }
         }
 
         public string RAM
         {
-            get { return GetValue(_ramStats, "{0}MB"); }
+            get
+            {
+                var counter = GetCounter("Memory", "Available MBytes");
+                return GetValue(counter, "{0}MB");
+            }
         }
 
         public string WebConnections
         {
-            get { return GetValue(_iisStats); }
-        }
-
-        public MachineStats()
-        {
-            _cpuStats = GetCounter("Processor", "% Processor Time", "_Total");
-            _ramStats = GetCounter("Memory", "Available MBytes");
-            _iisStats = GetCounter("W3SVC_WP", "Requests / Sec", "_Total");
+            get
+            {
+                var counter = GetCounter("W3SVC_WP", "Requests / Sec", "_Total");
+                return GetValue(counter);
+            }
         }
 
         private PerformanceCounter GetCounter(string objectName, string counterName)

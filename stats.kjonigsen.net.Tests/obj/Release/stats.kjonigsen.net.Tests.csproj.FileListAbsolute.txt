@@ -1,0 +1,8 @@
+C:\Users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Release\stats.kjonigsen.net.Tests.dll.config
+C:\Users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Release\stats.kjonigsen.net.Tests.dll
+C:\Users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Release\stats.kjonigsen.net.Tests.pdb
+C:\Users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Release\stats.kjonigsen.net.dll
+C:\Users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Release\stats.kjonigsen.net.pdb
+C:\Users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\obj\Release\ResolveAssemblyReference.cache
+C:\Users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\obj\Release\stats.kjonigsen.net.Tests.dll
+C:\Users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\obj\Release\stats.kjonigsen.net.Tests.pdb

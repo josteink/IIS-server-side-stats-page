@@ -33,9 +33,6 @@ namespace stats.kjonigsen.net.Models
     partial void InsertLog(Log instance);
     partial void UpdateLog(Log instance);
     partial void DeleteLog(Log instance);
-    partial void InsertRefererEntry(RefererEntry instance);
-    partial void UpdateRefererEntry(RefererEntry instance);
-    partial void DeleteRefererEntry(RefererEntry instance);
     #endregion
 		
 		public IISLogsDataContext() : 
@@ -76,19 +73,11 @@ namespace stats.kjonigsen.net.Models
 			}
 		}
 		
-		public System.Data.Linq.Table<RefererEntry> RefererEntries
-		{
-			get
-			{
-				return this.GetTable<RefererEntry>();
-			}
-		}
-		
 		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.usp_GetLastReferers")]
-		public ISingleResult<RefererEntry> GetLastReferers([global::System.Data.Linq.Mapping.ParameterAttribute(Name="Limit", DbType="Int")] System.Nullable<int> limit)
+		public ISingleResult<Log> GetLastReferers([global::System.Data.Linq.Mapping.ParameterAttribute(Name="Limit", DbType="Int")] System.Nullable<int> limit)
 		{
 			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), limit);
-			return ((ISingleResult<RefererEntry>)(result.ReturnValue));
+			return ((ISingleResult<Log>)(result.ReturnValue));
 		}
 		
 		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.usp_GetLastLogEntries")]
@@ -356,116 +345,6 @@ namespace stats.kjonigsen.net.Models
 					this._ApplicationName = value;
 					this.SendPropertyChanged("ApplicationName");
 					this.OnApplicationNameChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Referer", DbType="NVarChar(500)")]
-		public string Referer
-		{
-			get
-			{
-				return this._Referer;
-			}
-			set
-			{
-				if ((this._Referer != value))
-				{
-					this.OnRefererChanging(value);
-					this.SendPropertyChanging();
-					this._Referer = value;
-					this.SendPropertyChanged("Referer");
-					this.OnRefererChanged();
-				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.[Log]")]
-	public partial class RefererEntry : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private int _ID;
-		
-		private string _Url;
-		
-		private string _Referer;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnIDChanging(int value);
-    partial void OnIDChanged();
-    partial void OnUrlChanging(string value);
-    partial void OnUrlChanged();
-    partial void OnRefererChanging(string value);
-    partial void OnRefererChanged();
-    #endregion
-		
-		public RefererEntry()
-		{
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
-		public int ID
-		{
-			get
-			{
-				return this._ID;
-			}
-			set
-			{
-				if ((this._ID != value))
-				{
-					this.OnIDChanging(value);
-					this.SendPropertyChanging();
-					this._ID = value;
-					this.SendPropertyChanged("ID");
-					this.OnIDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Url", DbType="NVarChar(1000) NOT NULL", CanBeNull=false)]
-		public string Url
-		{
-			get
-			{
-				return this._Url;
-			}
-			set
-			{
-				if ((this._Url != value))
-				{
-					this.OnUrlChanging(value);
-					this.SendPropertyChanging();
-					this._Url = value;
-					this.SendPropertyChanged("Url");
-					this.OnUrlChanged();
 				}
 			}
 		}

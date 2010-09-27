@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="IISLogs" Class="IISLogsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
   <Connection Mode="WebSettings" ConnectionString="Data Source=(local);Initial Catalog=IISLogs;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="IISLogsConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.[Log]" Member="Logs">
-    <Type Name="Log" Id="ID2">
+    <Type Name="Log" Id="ID1">
       <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
       <Column Name="Date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
       <Column Name="Method" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
@@ -15,19 +15,12 @@
       <Column Name="Referer" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
     </Type>
   </Table>
-  <Table Name="dbo.[Log]" Member="RefererEntries">
-    <Type Name="RefererEntry" Id="ID1">
-      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="Url" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
-      <Column Name="Referer" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
-    </Type>
-  </Table>
   <Function Name="dbo.usp_GetLastReferers" Method="GetLastReferers">
     <Parameter Name="Limit" Parameter="limit" Type="System.Int32" DbType="Int" />
     <ElementType IdRef="ID1" />
   </Function>
   <Function Name="dbo.usp_GetLastLogEntries" Method="GetLastLogEntries">
     <Parameter Name="NumberOfEntries" Parameter="numberOfEntries" Type="System.Int32" DbType="Int" />
-    <ElementType IdRef="ID2" />
+    <ElementType IdRef="ID1" />
   </Function>
 </Database>

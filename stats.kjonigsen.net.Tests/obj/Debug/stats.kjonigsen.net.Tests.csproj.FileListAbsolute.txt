@@ -6,3 +6,11 @@ c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats
 c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Debug\stats.kjonigsen.net.pdb
 c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\obj\Debug\stats.kjonigsen.net.Tests.dll
 c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net.Tests\obj\Debug\stats.kjonigsen.net.Tests.pdb
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Debug\stats.kjonigsen.net.Tests.dll.config
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Debug\stats.kjonigsen.net.Tests.dll
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Debug\stats.kjonigsen.net.Tests.pdb
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Debug\stats.kjonigsen.net.dll
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net.Tests\bin\Debug\stats.kjonigsen.net.pdb
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net.Tests\obj\Debug\ResolveAssemblyReference.cache
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net.Tests\obj\Debug\stats.kjonigsen.net.Tests.dll
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net.Tests\obj\Debug\stats.kjonigsen.net.Tests.pdb

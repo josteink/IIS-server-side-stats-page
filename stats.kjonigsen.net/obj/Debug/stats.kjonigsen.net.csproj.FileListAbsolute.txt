@@ -3,3 +3,8 @@ c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats
 c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net\bin\stats.kjonigsen.net.pdb
 c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net\obj\Debug\stats.kjonigsen.net.dll
 c:\users\jostein\documents\visual studio 2010\Projects\stats.kjonigsen.net\stats.kjonigsen.net\obj\Debug\stats.kjonigsen.net.pdb
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net\bin\stats.kjonigsen.net.dll
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net\bin\stats.kjonigsen.net.pdb
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net\obj\Debug\ResolveAssemblyReference.cache
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net\obj\Debug\stats.kjonigsen.net.dll
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net\obj\Debug\stats.kjonigsen.net.pdb

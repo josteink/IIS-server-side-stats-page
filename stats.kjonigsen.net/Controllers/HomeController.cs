@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using stats.kjonigsen.net.Models;
 
 namespace stats.kjonigsen.net.Controllers
 {
@@ -11,11 +12,12 @@ namespace stats.kjonigsen.net.Controllers
     {
         public ActionResult Index()
         {
-            ViewData["Message"] = "Welcome to ASP.NET MVC!";
-            // comment
+            CompositeStats stats = new CompositeStats();
+            stats.Machine = new MachineStats();
+            stats.Logs = new LogController().GetLogs();
+            stats.Referers = new RefererController().GetReferers();
 
-            return View();    
+            return View(stats);    
         }
-
     }
 }

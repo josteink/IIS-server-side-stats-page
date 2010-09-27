@@ -67,21 +67,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\MachineStatsController.cs" />
+    <Compile Include="Controllers\LogController.cs" />
+    <Compile Include="Controllers\StatsController.cs" />
+    <Compile Include="Controllers\RefererController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CompositeStats.cs" />
     <Compile Include="Models\IISLogs.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>IISLogs.dbml</DependentUpon>
     </Compile>
+    <Compile Include="Models\LogEntry.cs" />
     <Compile Include="Models\MachineStats.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Views\MachineStats\Index.aspx" />
+    <Content Include="Scripts\Util.js" />
+    <Content Include="Scripts\jquery-tooltip.js" />
+    <Content Include="test.html" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Log\Index.ascx" />
+    <Content Include="Views\Referer\Index.ascx" />
+    <Content Include="Views\Stats\Index.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -102,7 +112,6 @@
     <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
     <Content Include="Scripts\MicrosoftMvcValidation.js" />
     <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
-    <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Shared\Site.Master" />
     <Content Include="Views\Web.config" />
