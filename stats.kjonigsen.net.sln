@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stats.kjonigsen.net", "stat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stats.kjonigsen.net.Tests", "stats.kjonigsen.net.Tests\stats.kjonigsen.net.Tests.csproj", "{5106A22C-1C47-499F-AD53-E889783275EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stats.kjonigsen.net.logging", "stats.kjonigsen.net.logging\stats.kjonigsen.net.logging.csproj", "{BAAB22AF-31FA-4E74-BC91-A4C1761D3DDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{5106A22C-1C47-499F-AD53-E889783275EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5106A22C-1C47-499F-AD53-E889783275EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5106A22C-1C47-499F-AD53-E889783275EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAAB22AF-31FA-4E74-BC91-A4C1761D3DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAAB22AF-31FA-4E74-BC91-A4C1761D3DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAAB22AF-31FA-4E74-BC91-A4C1761D3DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAAB22AF-31FA-4E74-BC91-A4C1761D3DDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
