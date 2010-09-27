@@ -1,0 +1,6 @@
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net.logging\obj\Debug\ResolveAssemblyReference.cache
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net.logging\bin\Debug\stats.kjonigsen.net.logging.dll
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net.logging\bin\Debug\stats.kjonigsen.net.logging.pdb
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net.logging\bin\Debug\Microsoft.Web.Administration.dll
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net.logging\obj\Debug\stats.kjonigsen.net.logging.dll
+Y:\Kode\stats.kjonigsen.net\stats.kjonigsen.net.logging\obj\Debug\stats.kjonigsen.net.logging.pdb
